@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" GroupingSetting="Access">
+  <Class Name="AbstractScene">
+    <Position X="3.5" Y="2.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAIAAAAAAAAAAgAAAAAAABAEAAA=</HashCode>
+      <FileName>AbstractScene.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TitleScene">
+    <Position X="3.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAAAAAAIAAIAAAAAAAIAAAAAAABAEAAA=</HashCode>
+      <FileName>TitleScene.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Looper">
+    <Position X="0.75" Y="3" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAABAAQCAAACAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Looper.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IOnSceneChangedListener">
+    <Position X="0.5" Y="0.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>ACgAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IOnChangeListener.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Define" Collapsed="true">
+    <Position X="6.25" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAgAAAAAIAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Define.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SystemMain" Collapsed="true">
+    <Position X="6.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAICAAEAAAAAAAAAAAAAAIAAAAAAAAQ=</HashCode>
+      <FileName>SystemMain.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Parameter" Collapsed="true">
+    <Position X="8" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Parameter.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="eScene" Collapsed="true">
+    <Position X="6.25" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>eScene.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Yu Gothic UI" Size="9" />
+</ClassDiagram>
