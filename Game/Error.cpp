@@ -1,7 +1,8 @@
-#include <Windows.h>
-#include <string>
+#define _CRT_SECURE_NO_WARNINGS
 
-#include "DxLib.h"
+#include <Windows.h>
+
+#include "stdafx.h"
 #include "Error.h"
 
 void Error::finish(char* errorMessage, LPCTSTR lpszFuncName, int lineN)

@@ -1,7 +1,6 @@
 #include "CalcUtils.h"
 
-#include <cmath>
-#include "DxLib.h"
+#include "stdafx.h"
 
 float CalcUtils::roundPoint(float val, int point)
 {

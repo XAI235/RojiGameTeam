@@ -1,12 +1,16 @@
 #pragma once
 
-#include "AbstractScene.h"
+
+#define TITLE_BACKGROUND	1
+#define SELECT_MASK			10
 
 class TitleScene : public AbstractScene
 {
 private:
-	int GrMenu;
-	int SdMenu;
+	Parameter param;
+//	int Picture[2];
+	int BGM;
+	float bright;
 public:
 	TitleScene(IOnSceneChangedListener* impl, const Parameter& parameter);
 	virtual ~TitleScene() = default;

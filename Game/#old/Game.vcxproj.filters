@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ソース ファイル\Define">
+      <UniqueIdentifier>{f261a96b-650d-4656-bd12-91b4a98406ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Looper">
+      <UniqueIdentifier>{ff691da5-4678-43ca-aa29-24fa57624413}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\TitleScene">
+      <UniqueIdentifier>{e1491312-a066-4fb9-95a0-6353d2d85c73}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Abstract Scene">
+      <UniqueIdentifier>{c927bf8c-c0bf-465a-93db-de222701c487}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\IOnChangeListener">
+      <UniqueIdentifier>{b71e5d29-bef5-46db-bdcb-82a4350df1ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\SystemMain">
+      <UniqueIdentifier>{16892d42-213c-4d68-8307-0835ca4eaf2b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\eScene">
+      <UniqueIdentifier>{466ae944-4308-4385-8c74-12b412086319}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Parameter">
+      <UniqueIdentifier>{ebd17e1e-392f-42bf-b6bb-cf070e855d68}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Error">
+      <UniqueIdentifier>{08638d52-1c3e-4e34-941e-fff961c8373c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\CalcUtils">
+      <UniqueIdentifier>{3fc402b1-8394-4694-9f0a-91226c612b9f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\FPS">
+      <UniqueIdentifier>{6f3655c8-fed2-4e7b-8202-9967bc0803e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Singleton">
+      <UniqueIdentifier>{ffbaa3ac-28e1-4f8a-80fe-8a94c7698ce8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Keyboard">
+      <UniqueIdentifier>{0321ee77-225d-4427-b5dd-617c40159da2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Define.cpp">
+      <Filter>ソース ファイル\Define</Filter>
+    </ClCompile>
+    <ClCompile Include="Looper.cpp">
+      <Filter>ソース ファイル\Looper</Filter>
+    </ClCompile>
+    <ClCompile Include="TitleScene.cpp">
+      <Filter>ソース ファイル\TitleScene</Filter>
+    </ClCompile>
+    <ClCompile Include="SystemMain.cpp">
+      <Filter>ソース ファイル\SystemMain</Filter>
+    </ClCompile>
+    <ClCompile Include="AbstractScene.cpp">
+      <Filter>ソース ファイル\Abstract Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Parameter.cpp">
+      <Filter>ソース ファイル\Parameter</Filter>
+    </ClCompile>
+    <ClCompile Include="Error.cpp">
+      <Filter>ソース ファイル\Error</Filter>
+    </ClCompile>
+    <ClCompile Include="Fps.cpp">
+      <Filter>ソース ファイル\FPS</Filter>
+    </ClCompile>
+    <ClCompile Include="CalcUtils.cpp">
+      <Filter>ソース ファイル\CalcUtils</Filter>
+    </ClCompile>
+    <ClCompile Include="Keyboard.cpp">
+      <Filter>ソース ファイル\Keyboard</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="SystemMain.h">
+      <Filter>ソース ファイル\SystemMain</Filter>
+    </ClInclude>
+    <ClInclude Include="Define.h">
+      <Filter>ソース ファイル\Define</Filter>
+    </ClInclude>
+    <ClInclude Include="Looper.h">
+      <Filter>ソース ファイル\Looper</Filter>
+    </ClInclude>
+    <ClInclude Include="TitleScene.h">
+      <Filter>ソース ファイル\TitleScene</Filter>
+    </ClInclude>
+    <ClInclude Include="AbstractScene.h">
+      <Filter>ソース ファイル\Abstract Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="IOnChangeListener.h">
+      <Filter>ソース ファイル\IOnChangeListener</Filter>
+    </ClInclude>
+    <ClInclude Include="eScene.h">
+      <Filter>ソース ファイル\eScene</Filter>
+    </ClInclude>
+    <ClInclude Include="Parameter.h">
+      <Filter>ソース ファイル\Parameter</Filter>
+    </ClInclude>
+    <ClInclude Include="Error.h">
+      <Filter>ソース ファイル\Error</Filter>
+    </ClInclude>
+    <ClInclude Include="Macro.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Fps.h">
+      <Filter>ソース ファイル\FPS</Filter>
+    </ClInclude>
+    <ClInclude Include="CalcUtils.h">
+      <Filter>ソース ファイル\CalcUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="Singleton.h">
+      <Filter>ソース ファイル\Singleton</Filter>
+    </ClInclude>
+    <ClInclude Include="Keyboard.h">
+      <Filter>ソース ファイル\Keyboard</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+  </ItemGroup>
+</Project>

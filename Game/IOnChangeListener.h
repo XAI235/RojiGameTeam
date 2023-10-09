@@ -1,7 +1,7 @@
 #pragma once
 
+#include "stdafx.h"
 #include "eScene.h"
-#include "AbstractScene.h"
 #include "Parameter.h"
 
 //	インターフェース

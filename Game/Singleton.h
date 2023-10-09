@@ -1,6 +1,7 @@
 #pragma once
 
-template<typename _T> class Singleton
+template<typename _T> 
+class Singleton
 {
 protected:
 	Singleton() =default;
@@ -8,7 +9,7 @@ protected:
 	Singleton(const Singleton& r) = default;
 	Singleton& operator=(const Singleton& r) = default;		//	= をオーバーライド
 public:
-	static _T* getInt()
+	static _T* getIns()
 	{
 		static _T inst;
 		return &inst;

@@ -16,24 +16,6 @@
     <Filter Include="ソース ファイル\Define">
       <UniqueIdentifier>{f261a96b-650d-4656-bd12-91b4a98406ae}</UniqueIdentifier>
     </Filter>
-    <Filter Include="ソース ファイル\Looper">
-      <UniqueIdentifier>{ff691da5-4678-43ca-aa29-24fa57624413}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="ソース ファイル\TitleScene">
-      <UniqueIdentifier>{e1491312-a066-4fb9-95a0-6353d2d85c73}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="ソース ファイル\Abstract Scene">
-      <UniqueIdentifier>{c927bf8c-c0bf-465a-93db-de222701c487}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="ソース ファイル\IOnChangeListener">
-      <UniqueIdentifier>{b71e5d29-bef5-46db-bdcb-82a4350df1ad}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="ソース ファイル\SystemMain">
-      <UniqueIdentifier>{16892d42-213c-4d68-8307-0835ca4eaf2b}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="ソース ファイル\eScene">
-      <UniqueIdentifier>{466ae944-4308-4385-8c74-12b412086319}</UniqueIdentifier>
-    </Filter>
     <Filter Include="ソース ファイル\Parameter">
       <UniqueIdentifier>{ebd17e1e-392f-42bf-b6bb-cf070e855d68}</UniqueIdentifier>
     </Filter>
@@ -43,14 +25,53 @@
     <Filter Include="ソース ファイル\CalcUtils">
       <UniqueIdentifier>{3fc402b1-8394-4694-9f0a-91226c612b9f}</UniqueIdentifier>
     </Filter>
-    <Filter Include="ソース ファイル\FPS">
+    <Filter Include="ソース ファイル\Scene">
+      <UniqueIdentifier>{4b43bf7b-1114-4559-befe-f63b5e628bed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Scene\TitleScene">
+      <UniqueIdentifier>{e1491312-a066-4fb9-95a0-6353d2d85c73}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\System">
+      <UniqueIdentifier>{6cacaf95-367d-4c68-a354-8553c4727038}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\System\SystemMain">
+      <UniqueIdentifier>{16892d42-213c-4d68-8307-0835ca4eaf2b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\System\Looper">
+      <UniqueIdentifier>{ff691da5-4678-43ca-aa29-24fa57624413}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\System\IOnChangeListener">
+      <UniqueIdentifier>{b71e5d29-bef5-46db-bdcb-82a4350df1ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\System\FPS">
       <UniqueIdentifier>{6f3655c8-fed2-4e7b-8202-9967bc0803e1}</UniqueIdentifier>
     </Filter>
-    <Filter Include="ソース ファイル\Singleton">
-      <UniqueIdentifier>{ffbaa3ac-28e1-4f8a-80fe-8a94c7698ce8}</UniqueIdentifier>
+    <Filter Include="ソース ファイル\Scene\eScene">
+      <UniqueIdentifier>{466ae944-4308-4385-8c74-12b412086319}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Scene\Abstract Scene">
+      <UniqueIdentifier>{c927bf8c-c0bf-465a-93db-de222701c487}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Scene\NobelScene">
+      <UniqueIdentifier>{4ebc4450-bbeb-47f2-86e2-23ae71dd3a9f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Engin">
+      <UniqueIdentifier>{39445dbc-d501-4c08-aa06-53588dbecb23}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Engin\ScriptInformation">
+      <UniqueIdentifier>{b72c085f-45da-48e9-bd40-902fd046e629}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Config">
+      <UniqueIdentifier>{7583b9b0-3c04-46f9-954c-47ee62a65ffa}</UniqueIdentifier>
     </Filter>
     <Filter Include="ソース ファイル\Keyboard">
-      <UniqueIdentifier>{0321ee77-225d-4427-b5dd-617c40159da2}</UniqueIdentifier>
+      <UniqueIdentifier>{0766e73e-a9b2-46cf-84cd-8f1f1e997bd2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Mouse">
+      <UniqueIdentifier>{99715720-39c9-47de-84e1-0fffccf56089}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Scene\IntroductionScene">
+      <UniqueIdentifier>{a8d8fe98-694d-4147-affb-8fe9ff039f82}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -61,16 +82,16 @@
       <Filter>ソース ファイル\Define</Filter>
     </ClCompile>
     <ClCompile Include="Looper.cpp">
-      <Filter>ソース ファイル\Looper</Filter>
+      <Filter>ソース ファイル\System\Looper</Filter>
     </ClCompile>
     <ClCompile Include="TitleScene.cpp">
-      <Filter>ソース ファイル\TitleScene</Filter>
+      <Filter>ソース ファイル\Scene\TitleScene</Filter>
     </ClCompile>
     <ClCompile Include="SystemMain.cpp">
-      <Filter>ソース ファイル\SystemMain</Filter>
+      <Filter>ソース ファイル\System\SystemMain</Filter>
     </ClCompile>
     <ClCompile Include="AbstractScene.cpp">
-      <Filter>ソース ファイル\Abstract Scene</Filter>
+      <Filter>ソース ファイル\Scene\Abstract Scene</Filter>
     </ClCompile>
     <ClCompile Include="Parameter.cpp">
       <Filter>ソース ファイル\Parameter</Filter>
@@ -79,39 +100,54 @@
       <Filter>ソース ファイル\Error</Filter>
     </ClCompile>
     <ClCompile Include="Fps.cpp">
-      <Filter>ソース ファイル\FPS</Filter>
+      <Filter>ソース ファイル\System\FPS</Filter>
     </ClCompile>
     <ClCompile Include="CalcUtils.cpp">
       <Filter>ソース ファイル\CalcUtils</Filter>
     </ClCompile>
+    <ClCompile Include="GameScene.cpp">
+      <Filter>ソース ファイル\Scene\NobelScene</Filter>
+    </ClCompile>
+    <ClCompile Include="ScriptEngin.cpp">
+      <Filter>ソース ファイル\Engin</Filter>
+    </ClCompile>
+    <ClCompile Include="ScriptInformation.cpp">
+      <Filter>ソース ファイル\Engin\ScriptInformation</Filter>
+    </ClCompile>
+    <ClCompile Include="Config.cpp">
+      <Filter>ソース ファイル\Config</Filter>
+    </ClCompile>
     <ClCompile Include="Keyboard.cpp">
       <Filter>ソース ファイル\Keyboard</Filter>
+    </ClCompile>
+    <ClCompile Include="Mouse.cpp">
+      <Filter>ソース ファイル\Mouse</Filter>
+    </ClCompile>
+    <ClCompile Include="IntroductionScene.cpp">
+      <Filter>ソース ファイル\Scene\IntroductionScene</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="SystemMain.h">
-      <Filter>ソース ファイル\SystemMain</Filter>
+      <Filter>ソース ファイル\System\SystemMain</Filter>
     </ClInclude>
     <ClInclude Include="Define.h">
       <Filter>ソース ファイル\Define</Filter>
     </ClInclude>
     <ClInclude Include="Looper.h">
-      <Filter>ソース ファイル\Looper</Filter>
+      <Filter>ソース ファイル\System\Looper</Filter>
     </ClInclude>
     <ClInclude Include="TitleScene.h">
-      <Filter>ソース ファイル\TitleScene</Filter>
+      <Filter>ソース ファイル\Scene\TitleScene</Filter>
     </ClInclude>
     <ClInclude Include="AbstractScene.h">
-      <Filter>ソース ファイル\Abstract Scene</Filter>
+      <Filter>ソース ファイル\Scene\Abstract Scene</Filter>
     </ClInclude>
     <ClInclude Include="IOnChangeListener.h">
-      <Filter>ソース ファイル\IOnChangeListener</Filter>
+      <Filter>ソース ファイル\System\IOnChangeListener</Filter>
     </ClInclude>
     <ClInclude Include="eScene.h">
-      <Filter>ソース ファイル\eScene</Filter>
-    </ClInclude>
-    <ClInclude Include="Parameter.h">
-      <Filter>ソース ファイル\Parameter</Filter>
+      <Filter>ソース ファイル\Scene\eScene</Filter>
     </ClInclude>
     <ClInclude Include="Error.h">
       <Filter>ソース ファイル\Error</Filter>
@@ -120,16 +156,40 @@
       <Filter>ヘッダー ファイル</Filter>
     </ClInclude>
     <ClInclude Include="Fps.h">
-      <Filter>ソース ファイル\FPS</Filter>
+      <Filter>ソース ファイル\System\FPS</Filter>
     </ClInclude>
     <ClInclude Include="CalcUtils.h">
       <Filter>ソース ファイル\CalcUtils</Filter>
     </ClInclude>
-    <ClInclude Include="Singleton.h">
-      <Filter>ソース ファイル\Singleton</Filter>
+    <ClInclude Include="GameScene.h">
+      <Filter>ソース ファイル\Scene\NobelScene</Filter>
+    </ClInclude>
+    <ClInclude Include="ScriptInformation.h">
+      <Filter>ソース ファイル\Engin\ScriptInformation</Filter>
+    </ClInclude>
+    <ClInclude Include="ScriptEngin.h">
+      <Filter>ソース ファイル\Engin</Filter>
+    </ClInclude>
+    <ClInclude Include="Config.h">
+      <Filter>ソース ファイル\Config</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>ヘッダー ファイル</Filter>
     </ClInclude>
     <ClInclude Include="Keyboard.h">
       <Filter>ソース ファイル\Keyboard</Filter>
+    </ClInclude>
+    <ClInclude Include="Mouse.h">
+      <Filter>ソース ファイル\Mouse</Filter>
+    </ClInclude>
+    <ClInclude Include="Singleton.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Parameter.h">
+      <Filter>ソース ファイル\Parameter</Filter>
+    </ClInclude>
+    <ClInclude Include="IntroductionScene.h">
+      <Filter>ソース ファイル\Scene\IntroductionScene</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

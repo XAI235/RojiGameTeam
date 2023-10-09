@@ -1,15 +1,14 @@
 #pragma once
 
+#include "stdafx.h"
 #include <stack>
 #include <memory>
-#include "AbstractScene.h"
-#include "IOnChangeListener.h"
 
 class Looper final : public IOnSceneChangedListener
 {
 private:
-	
 	std::stack<std::shared_ptr<AbstractScene>> _sceneStack;		//	シーンのスタック
+	Parameter parameter;
 public:
 
 	Looper();

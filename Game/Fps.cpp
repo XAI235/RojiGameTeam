@@ -1,6 +1,6 @@
 #include <list>
 
-#include "DxLib.h"
+#include "stdafx.h"
 #include "Fps.h"
 #include "CalcUtils.h"
 

@@ -1,4 +1,4 @@
-#include "DxLib.h"
+#include "stdafx.h"
 #include "SystemMain.h"
 
 // ƒvƒƒOƒ‰ƒ€‚Í WinMain ‚©‚çn‚Ü‚è‚Ü‚·
